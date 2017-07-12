@@ -1,4 +1,48 @@
-//output:../_includes/hello.html
+//output:../_includes/home.html
+.header
+  a.link(href="#top")
+    img(class="brand" src="../img/logo.png")
+  ul.navmenu
+    li
+       a.link(href="#content1") About Me
+    li
+       a.link(href="#content3") Portfolio
+    li
+       a.link(href="#content2") Works
+    li
+       a.link(href="#") Contact
 
-
-   
+.wrapper#top
+  div(class="jumbotron jumbotron-fluid hero") 
+   .headertext
+     button(class="clickme animated slideInLeft") 
+     h1(class="animated slideInLeft") HELLO <br> I AM ENDY
+     h2(class="animated slideInLeft") This is html template made using html , css, js, jquery, gulp and jekyll. Designed in Adobe Illustrator and coded in atom editor. CSS preprocessor is using SASS/SCSS, HTML templating is using JADE/PUG.
+     button(class="about-me")
+      a(href="#")  ABOUT ME
+   .content1#content1
+     .imgbox1
+     .text1
+       h1 Lorem ipsum
+       h2 Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem 
+   .content2#content2
+     .imgbox2
+     .text2
+       h1 Lorem ipsum
+       h2 Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem     
+   .content3#content3
+     #carousel
+        div
+          img(src="https://unsplash.it/350/300" class="img1")
+          a(href="#")
+        div
+          img(src="https://unsplash.it/350/320" class="img1")
+          a(href="#")
+        div
+          img(src="https://unsplash.it/350/310" class="img1")
+          a(href="#")
+        button(class="viewmore")
+          a(href="#") VIEW MORE
+     .text3
+       h1 Lorem ipsum
+       h2 Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem        
